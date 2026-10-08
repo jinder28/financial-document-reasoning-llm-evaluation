@@ -1,0 +1,574 @@
+{
+  "source_archive": "Dissertation_Submission_Artefacts.7z",
+  "source_archive_sha256": "0c561650703de0a7881527c2696ba6e6e351bd3311a2dda2ddfd265d83596bde",
+  "prepared_on": "2026-10-08",
+  "description": "Unmodified copied source files; repository-only additions are documented separately. Paths are relative to the supplied dissertation folder, not user machine locations.",
+  "copied_files": [
+    {
+      "repository_path": "app/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/cli.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/cli.py",
+      "sha256": "48fdc65fff296ee9b72c9915715447b5a4ab7e26a62eb32d0bcac8eac12adfd9"
+    },
+    {
+      "repository_path": "app/common/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/common/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/common/csv_table.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/common/csv_table.py",
+      "sha256": "29b7048e4b84012553d56c1541d3649cf0be73a92ee3cb47d39a729e961805a6"
+    },
+    {
+      "repository_path": "app/common/file_hashing.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/common/file_hashing.py",
+      "sha256": "682b3b1237bd6b1a93b6cda45bef09f8201c44b34e06a7c4a7bea93a593f3d1d"
+    },
+    {
+      "repository_path": "app/common/jsonl_table.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/common/jsonl_table.py",
+      "sha256": "281e411154791ac73980eef39830ee0fd44655995c7a86062cf7731a6159d0c7"
+    },
+    {
+      "repository_path": "app/common/logging_setup.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/common/logging_setup.py",
+      "sha256": "5070a9bc7f9f74a1c504673c894009aa62cc55eb0d0b5059faa1f5acc5fa2481"
+    },
+    {
+      "repository_path": "app/config/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/config/feature_toggles.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/config/feature_toggles.py",
+      "sha256": "10262f9f6474b6d761f6a2a27fe5f1da7a5d8529c820b88b058b9e952b09ea08"
+    },
+    {
+      "repository_path": "app/config/runtime_settings.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/config/runtime_settings.py",
+      "sha256": "1276348be6571e67facb3daa49295dab7e3bf90959bf0908b1ea383d5dfb3974"
+    },
+    {
+      "repository_path": "app/execution/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/execution/cost_guard.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/cost_guard.py",
+      "sha256": "cf9a9d12f977b3e571dbdc9ae355b19434bf3fc3a0cdb3440b94f971ec6204f3"
+    },
+    {
+      "repository_path": "app/execution/experiment_queue_loader.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/experiment_queue_loader.py",
+      "sha256": "d931e83319d2b7c323539081ca605c741961a2cc241ddd1bcb5b77ce84f05954"
+    },
+    {
+      "repository_path": "app/execution/experiment_run_controller.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/experiment_run_controller.py",
+      "sha256": "3b57a99d6369f31582108c002681600c58407888d6e0fe34389e4b12953494cd"
+    },
+    {
+      "repository_path": "app/execution/model_client_interface.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/model_client_interface.py",
+      "sha256": "9eb12d2a936387947c6bc0e69df16df8336077fcfc0a988dbc60c7f83cccbca7"
+    },
+    {
+      "repository_path": "app/execution/openai_responses_model_client.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/openai_responses_model_client.py",
+      "sha256": "3d69c1c1eabfd734aaba0d3b4580282c1f61e008a59327fb62b41beaf91fc91a"
+    },
+    {
+      "repository_path": "app/execution/retry_policy.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/retry_policy.py",
+      "sha256": "b5d4e31b4f236cb39bda11fa8f59503b7fa304f50d41f4e7f019affa50cd5b0f"
+    },
+    {
+      "repository_path": "app/execution/telemetry_logger.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/execution/telemetry_logger.py",
+      "sha256": "a71b139ab6173f76cce745d7ea2d9ec97100e1014a2adf4c19931bf28789ac49"
+    },
+    {
+      "repository_path": "app/export/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/export/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/export/appendix_e_exporter.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/export/appendix_e_exporter.py",
+      "sha256": "b29bddf8ad15ed75efb4bd1e47f048d0240d8b61990191d16329a0ab64b10e32"
+    },
+    {
+      "repository_path": "app/export/evidence_pack_builder.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/export/evidence_pack_builder.py",
+      "sha256": "e0afe22dab398d578bada7da7e967f692ce924577feee57c8db2582d1d5e4437"
+    },
+    {
+      "repository_path": "app/export/run_manifest_exporter.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/export/run_manifest_exporter.py",
+      "sha256": "be0d4c6681c0bfacee5a06e690ff07b7773bb81e9f17aab951e69d3f66833d78"
+    },
+    {
+      "repository_path": "app/ingestion/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/ingestion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/ingestion/filing_download_manifest.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/ingestion/filing_download_manifest.py",
+      "sha256": "b52e9c53f60619356490f997d5e229c18b9b831c2ceb264204cff42a67c44c9f"
+    },
+    {
+      "repository_path": "app/ingestion/filing_metadata_validator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/ingestion/filing_metadata_validator.py",
+      "sha256": "eb73ed066cf051157db7485a1be13fb646ce812c53b2cbb5260d9e389f282e8e"
+    },
+    {
+      "repository_path": "app/ingestion/sec_filing_fetcher.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/ingestion/sec_filing_fetcher.py",
+      "sha256": "3469bdc496620f24ba1fa5cdbb0008960ba9d54b7cadcbc6d265b23e147a927f"
+    },
+    {
+      "repository_path": "app/preparation/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/preparation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/preparation/corpus_lock_validator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/preparation/corpus_lock_validator.py",
+      "sha256": "334c52ec2a38478949afc727fbeabef06833cada071806c8f5694644fbbfb066"
+    },
+    {
+      "repository_path": "app/preparation/filing_text_cleaner.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/preparation/filing_text_cleaner.py",
+      "sha256": "e5884a40e90a6b88e341c6e7cbf452d6b54039ab83016dc7deca5b079af175f3"
+    },
+    {
+      "repository_path": "app/preparation/section_inventory_builder.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/preparation/section_inventory_builder.py",
+      "sha256": "2ca00a495f01571b0998c94c999e8aecd812b5abf73c3d57bf61685ebd1c6d9c"
+    },
+    {
+      "repository_path": "app/preparation/token_estimator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/preparation/token_estimator.py",
+      "sha256": "76442991094d1c9d241d2a39a7326b1e24f190e70f1c005000fd7d9d7bd1d76c"
+    },
+    {
+      "repository_path": "app/prompts/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/prompts/long_context_prompt_assembler.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/long_context_prompt_assembler.py",
+      "sha256": "9bca52422c83983ca55927f4cf4d6333ef0cdf4c17926ca0f1118ff2f4b48cfd"
+    },
+    {
+      "repository_path": "app/prompts/output_schema_registry.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/output_schema_registry.py",
+      "sha256": "5bde568e329ec4913b6f11f00ae933d2db4a4b8a60aaf0bd55b008ce6065e79c"
+    },
+    {
+      "repository_path": "app/prompts/prompt_payload_writer.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/prompt_payload_writer.py",
+      "sha256": "77f9a3518f6a2fe1707c31e64a6b62f8aee2f68aba4d6c7c9ac2a5fc425e77aa"
+    },
+    {
+      "repository_path": "app/prompts/prompt_template_registry.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/prompt_template_registry.py",
+      "sha256": "cc26cb23ff1f206ce0a5b6c610d4e684254d2a08b9ec1e214da97ce1e7020ead"
+    },
+    {
+      "repository_path": "app/prompts/rag_prompt_assembler.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/prompts/rag_prompt_assembler.py",
+      "sha256": "b60282d49540ec29f2165696eb3195dfa57d641853b3771eb233fc7eb94273f6"
+    },
+    {
+      "repository_path": "app/rag/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/rag/embedding_client_interface.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/embedding_client_interface.py",
+      "sha256": "627db3eb889a7485c48eb43b15c50dc146cc1b1a102293e58961b2ddaf5a0cbd"
+    },
+    {
+      "repository_path": "app/rag/faiss_vector_store.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/faiss_vector_store.py",
+      "sha256": "e582a1cd34e9a8933cbd3b8ff0f7429b53ed85442f2691907f09d130e2641ba3"
+    },
+    {
+      "repository_path": "app/rag/filing_chunker.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/filing_chunker.py",
+      "sha256": "0e63a79152b3dd97e468c11cbf4eaec2ac622486f9329d9b9bbdda321acc3706"
+    },
+    {
+      "repository_path": "app/rag/openai_embedding_client.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/openai_embedding_client.py",
+      "sha256": "52ebcee0e0a1a68c7f833ede95aaf84b4e4d7f275497513467e7933df6b02df2"
+    },
+    {
+      "repository_path": "app/rag/rag_context_builder.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/rag_context_builder.py",
+      "sha256": "2e1d7e394e44e8669f38f9e0e40afafc3f9bcaad94c7cfc2bdf372831d336b6c"
+    },
+    {
+      "repository_path": "app/rag/rag_context_loader.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/rag_context_loader.py",
+      "sha256": "13fa25ced27cf5fc7c912c12ff3f89a13ba25ff4483beae35d66b27fdd5d052a"
+    },
+    {
+      "repository_path": "app/rag/vector_store_interface.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/rag/vector_store_interface.py",
+      "sha256": "92bf5e4f4b110cee4c33a9748b76085f00955acdffa20b74bf4e2898ab1993df"
+    },
+    {
+      "repository_path": "app/scoring/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/scoring/classification_scorer.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/classification_scorer.py",
+      "sha256": "89e202b7c69071c192522be3b7b83f8ea886f95add746e448568fb09691e43f7"
+    },
+    {
+      "repository_path": "app/scoring/error_taxonomy_template_writer.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/error_taxonomy_template_writer.py",
+      "sha256": "75fc6d4fbf1e69bac427658a816b4260525faf919d3b01bbb57a679b942cc283"
+    },
+    {
+      "repository_path": "app/scoring/metric_calculator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/metric_calculator.py",
+      "sha256": "cf28029772b359b58d3ee833d9e774bdf1968b387890ab7a05a7d82a52c9623f"
+    },
+    {
+      "repository_path": "app/scoring/model_output_parser.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/model_output_parser.py",
+      "sha256": "99177854c1cae51a6420b4a4516d282b68920e4ac67b274b5e0e534c6f524373"
+    },
+    {
+      "repository_path": "app/scoring/scoring_key_repository.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/scoring/scoring_key_repository.py",
+      "sha256": "d98c574790943c4353437c61c952077cb72c48a95ea0b12dc21f7f76d0e2a56b"
+    },
+    {
+      "repository_path": "app/storage/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/storage/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/storage/artifact_repository_interface.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/storage/artifact_repository_interface.py",
+      "sha256": "3a9a750c69ea0f4d3943630fe4225f5e8be3ad2c6f0baaf04b9ceb66a6d14aea"
+    },
+    {
+      "repository_path": "app/storage/datastore_configuration.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/storage/datastore_configuration.py",
+      "sha256": "a93be574990cd9f9d85db109287a1129a1558c412c2dca0996c45ef91d991421"
+    },
+    {
+      "repository_path": "app/storage/local_file_artifact_repository.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/storage/local_file_artifact_repository.py",
+      "sha256": "d3c8c51a9b950f3c073c619134e8e9b879a274b7d649aef79ab123f3c6f37d15"
+    },
+    {
+      "repository_path": "app/validation/__init__.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/validation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "app/validation/answer_key_leakage_checker.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/validation/answer_key_leakage_checker.py",
+      "sha256": "e9f83c3ae9126353c0a038a5e45a0b2093b992f1677f5871913f7db0551cd605"
+    },
+    {
+      "repository_path": "app/validation/input_artifact_validator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/app/validation/input_artifact_validator.py",
+      "sha256": "e3067f99f2e22609a8373cef43ff1f79a9dc37189565c2feed5936f8b299a806"
+    },
+    {
+      "repository_path": "tests/test_answer_key_leakage_checker.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tests/test_answer_key_leakage_checker.py",
+      "sha256": "7c7298cdb58b9427965f981d41cd627e611eee44cda499ee16ee36148723588a"
+    },
+    {
+      "repository_path": "tests/test_filing_chunker.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tests/test_filing_chunker.py",
+      "sha256": "978ebdd7d85636193c0af64dec0d3c75c4eaf7edbd305dddb939dee3c0637b38"
+    },
+    {
+      "repository_path": "tests/test_metric_calculator.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tests/test_metric_calculator.py",
+      "sha256": "72824fa935bc013e7d892c6568510720eefd6c3cc9a7c194d6c64ebfd9a73636"
+    },
+    {
+      "repository_path": "tests/test_prompt_payload_writer.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tests/test_prompt_payload_writer.py",
+      "sha256": "315fb6a6bf5ac927ce8d452eb68b3261f564f1b206d6f48c6374d8bf1ad0c038"
+    },
+    {
+      "repository_path": "tests/test_runtime_settings.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tests/test_runtime_settings.py",
+      "sha256": "1c8e30dafbfde0da85da58b03c9cd3d5e2161b372571ace1d4bca7dca91b0322"
+    },
+    {
+      "repository_path": "tools/bootstrap_inputs_from_existing_project.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tools/bootstrap_inputs_from_existing_project.py",
+      "sha256": "bc76e22a5688a80492c94525bd6cb8c57f8a3588a3f280bf96462aff5ece5416"
+    },
+    {
+      "repository_path": "tools/make_release_zip.py",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/tools/make_release_zip.py",
+      "sha256": "597cee1606f1cd6b68142a5655b692896e2212ce187e0a1a6ded13d6b0943ee0"
+    },
+    {
+      "repository_path": "inputs/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/claims/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/claims/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/claims/claim_case_manifest_v1_locked_amendment001.csv",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/claims/claim_case_manifest_v1_locked_amendment001.csv",
+      "sha256": "15039c042227e397de0dc9b11d7f55ab52add988cc4cddbbe2de457b8c8dbe15"
+    },
+    {
+      "repository_path": "inputs/clean_text/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/clean_text/F001_0000320193-25-000079.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F001_0000320193-25-000079.txt",
+      "sha256": "dd78e0e3e826cc2da32ad28de7f6f4d8c3460f5f0c6b02ba09320a12fa3f9b50"
+    },
+    {
+      "repository_path": "inputs/clean_text/F002_0001018724-26-000004.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F002_0001018724-26-000004.txt",
+      "sha256": "e78a272fe9517006f17e20fb0663be7328f8a63f839b52eb1743cb30ccf0bf47"
+    },
+    {
+      "repository_path": "inputs/clean_text/F003_0001628280-26-008131.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F003_0001628280-26-008131.txt",
+      "sha256": "88bfef5b88310b612f8d25982f522dccbaae22f6d71ec3eb867e28144cc1cf6f"
+    },
+    {
+      "repository_path": "inputs/clean_text/F004_0000070858-26-000157.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F004_0000070858-26-000157.txt",
+      "sha256": "4555dbe3f3ecc315df063ccead6bcdd790726179a1b0c48ed815fd2a5c867892"
+    },
+    {
+      "repository_path": "inputs/clean_text/F005_0000732712-26-000007.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F005_0000732712-26-000007.txt",
+      "sha256": "5c1c424523903ec342ece91c45af62f3256ca51f85060a0fe834ef3c5c5c34f1"
+    },
+    {
+      "repository_path": "inputs/clean_text/F006_0000037996-26-000015.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/clean_text/F006_0000037996-26-000015.txt",
+      "sha256": "0b8cf816f48f05ef043fd5c974da4a8e714c9482db1a8b6f56e592a3890d742d"
+    },
+    {
+      "repository_path": "inputs/manifests/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/manifests/run_manifest_locked_v1_amendment001.json",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/manifests/run_manifest_locked_v1_amendment001.json",
+      "sha256": "bb569bbf4cc37b0993914adb3e084632ea33980cc1448f98838fad758c5af97a"
+    },
+    {
+      "repository_path": "inputs/queue/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/queue/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/queue/api_execution_queue_locked_v1_amendment001.csv",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/queue/api_execution_queue_locked_v1_amendment001.csv",
+      "sha256": "3310e75209969c96a46fc067984635817bd91c77fa3044a54b4bf8cf330387bf"
+    },
+    {
+      "repository_path": "inputs/rag/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/rag/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/rag/rag_retrieved_contexts_locked_v1.jsonl",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/rag/rag_retrieved_contexts_locked_v1.jsonl",
+      "sha256": "d1c14976992da91f5bef18829f08ec87bfea604417be5dbd4172c8e2041d0269"
+    },
+    {
+      "repository_path": "inputs/scoring/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/scoring/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "inputs/scoring/scoring_key_locked_v1_amendment001.csv",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/scoring/scoring_key_locked_v1_amendment001.csv",
+      "sha256": "1c87cca8c29e81a2403667ac506b99445b08ed8589419b8911f603d22bf94929"
+    },
+    {
+      "repository_path": "inputs/sec_source/.gitkeep",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/inputs/sec_source/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repository_path": "Dockerfile",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/Dockerfile",
+      "sha256": "e81d2ef509306efaad1f2186a6273843f512fa9e2c7513cc78ee3901beb28256"
+    },
+    {
+      "repository_path": "docker-compose.yml",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/docker-compose.yml",
+      "sha256": "362bd8f876a4a0ecd6bc6a72b99c45e4000f34af54b1e583a4d73c2c7dd1c4b6"
+    },
+    {
+      "repository_path": "requirements.txt",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/requirements.txt",
+      "sha256": "0105e8bb7631a73a9733dcb6b6d76f7a324beb8f2acd53a562aeb1e83292cca6"
+    },
+    {
+      "repository_path": ".env.example",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/.env.example",
+      "sha256": "10df10736a050148b5af47f0352ffb32d9a7f4f98f62f35c8899571e4dcb6a27"
+    },
+    {
+      "repository_path": ".dockerignore",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/.dockerignore",
+      "sha256": "aa57008f4ee0ac5e42259fbc6809224aa40523e6e4ae48cff70fcbd99dd54da7"
+    },
+    {
+      "repository_path": "docs/submission/SUBMITTED_README.md",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/README.md",
+      "sha256": "c5c718e0bc534bdadddfa02c672bf1db95ffda7c40c725022a5d0ef5bf663a1b"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_A1_Structured_Literature_Review_Protocol_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_A1_Structured_Literature_Review_Protocol_Final.pdf",
+      "sha256": "4d6871cdd5288780ca290ded04b9e85b6c9cddbcea6c3211bc404f15a69b2821"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_A2_Citation_Control_Matrix_Final.xlsx",
+      "submitted_path": "02_Appendices/Appendix_A2_Citation_Control_Matrix_Final.xlsx",
+      "sha256": "8ba3c13bcd8c94320322a5e7d8df019c304655fa036391c1da4a1f8ffcd96282"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_B_Methodology_and_Experiment_Protocol_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_B_Methodology_and_Experiment_Protocol_Final.pdf",
+      "sha256": "d63c2b28e66e238ab3f002a41d8450b9897f6d7f4248d91dc9fd40886856bfce"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_C_Dataset_and_Claim_Case_Register_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_C_Dataset_and_Claim_Case_Register_Final.pdf",
+      "sha256": "7a1115a832edc3106399d103e59d27a48a30322122f1febbed7eadb3a58b3da3"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_D_Prompt_Templates_Output_Schema_and_RAG_Configuration_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_D_Prompt_Templates_Output_Schema_and_RAG_Configuration_Final.pdf",
+      "sha256": "b3973c9cc547f7897b8148aeae0fa60fde92502a283df5036506e9009d53b476"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_E_Experiment_Run_Logs_Cost_Latency_and_Results_Evidence_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_E_Experiment_Run_Logs_Cost_Latency_and_Results_Evidence_Final.pdf",
+      "sha256": "3823d3b2866d9d9ae03873a471b973ba87b9ebc4d7d7d7cd05606825185339e0"
+    },
+    {
+      "repository_path": "docs/appendices/Appendix_F_Ethics_Reproducibility_and_Audit_Material_Final.pdf",
+      "submitted_path": "02_Appendices/Appendix_F_Ethics_Reproducibility_and_Audit_Material_Final.pdf",
+      "sha256": "399fbf942e70ed940ef76ca9b55bb06f625e9db94f03bf88381ef871e25ebc5c"
+    },
+    {
+      "repository_path": "evidence/main-run/Appendix_E_Evidence_Index.md",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/Appendix_E_Evidence_Index.md",
+      "sha256": "6b397ac71ffbe1f97f399ff1a6d7feb4dbf2af798c6e24a162d55c0e4318a2a6"
+    },
+    {
+      "repository_path": "evidence/main-run/artifact_hash_manifest.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/artifact_hash_manifest.csv",
+      "sha256": "989476f21d06179881243ca2b9e4ab92a53dd02a539748ada99ae3c784abb856"
+    },
+    {
+      "repository_path": "evidence/main-run/condition_metrics.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/condition_metrics.csv",
+      "sha256": "cebb1316f62c566b47b689473405fa6320c38c1c935211d648ce207d471df63d"
+    },
+    {
+      "repository_path": "evidence/main-run/confusion_matrix.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/confusion_matrix.csv",
+      "sha256": "03230d3f68147be5a9756125f330c01eae29899fb7ee5f5ea424bd242db39292"
+    },
+    {
+      "repository_path": "evidence/main-run/error_taxonomy_template.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/error_taxonomy_template.csv",
+      "sha256": "474f108dc737ddbe8935315e286023c714f59f27cd5df2c68aaa2a11f3a7db01"
+    },
+    {
+      "repository_path": "evidence/main-run/main_run_telemetry.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/main_run_telemetry.csv",
+      "sha256": "c07ce4168023f3bcf27b14e62ef6ab5768bdfaae9ba37facfc52d103235fedbc"
+    },
+    {
+      "repository_path": "evidence/main-run/prompt_hashes.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/prompt_hashes.csv",
+      "sha256": "7e8998f2a10cd2b9cca30188e5b0826b0b5f9c97706063088485bb27f559e69a"
+    },
+    {
+      "repository_path": "evidence/main-run/prompt_size_summary.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/prompt_size_summary.csv",
+      "sha256": "0aa5c7c68e49f1d0f74fbe9af882c99ccb6709c0a0dcc20304b1e02a3caa287e"
+    },
+    {
+      "repository_path": "evidence/main-run/scored_predictions.csv",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/scored_predictions.csv",
+      "sha256": "cbc65b84290ea5369b53ebcb04787dfa1a8af35fe7e6d37e90800d4a588ef0bb"
+    },
+    {
+      "repository_path": "evidence/main-run/validation_report.md",
+      "submitted_path": "03_Main_Run_Evidence/Appendix_E_Evidence_Pack/validation_report.md",
+      "sha256": "10a8340d0850c647ef4910b7460c8786c284671a3ba36e7884611760281e916d"
+    },
+    {
+      "repository_path": "evidence/main-run/parsed_model_outputs.jsonl",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/outputs/full_live/parsed_model_outputs.jsonl",
+      "sha256": "c2d98e5bb59e510ac830657b72c492c4318ff79455752eb33b1f9c057d602fd0"
+    },
+    {
+      "repository_path": "evidence/main-run/raw_model_outputs.jsonl",
+      "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/outputs/full_live/raw_model_outputs.jsonl",
+      "sha256": "4c0b8dcb7387248c0169799855b3c85c044b726394c7f185b3006628db99fbf4"
+    },
+    {
+      "repository_path": "evidence/analysis/Main_Run_Results_Extraction_and_Analysis_Workbook_v1.xlsx",
+      "submitted_path": "03_Main_Run_Evidence/Derived_Analysis/Main_Run_Results_Extraction_and_Analysis_Workbook_v1.xlsx",
+      "sha256": "d8d9635b42454cb79e67622a325fb1022b9e854575778475d99f8fa77b9c30e2"
+    }
+  ],
+  "public_report": {
+    "path": "docs/dissertation/Dissertation_Public_Copy.pdf",
+    "source_path": "01_Report/Dissertation_Final_Report.pdf",
+    "source_sha256": "40e60e897edef04f837feabd58ee30f9346e4f0e00e03774037818ad94e5e94e",
+    "public_sha256": "0274c2eed16aa803211db1dd442f61a9c0795e0334c2ef08d7051a49888fd107",
+    "changes": [
+      "Removed student registration-number line on PDF page 1 using applied PDF redaction",
+      "Cleared document metadata"
+    ],
+    "research_content": "No changes to research chapters, results, references or declaration; pages 2-50 compared separately."
+  },
+  "omitted_regenerable_payload": {
+    "submitted_path": "04_Codebase/CS958-ROUS04-Codebase/CS958-ROUS04-HarjinderSingh/outputs/full_live/request_payloads/full_model_request_payloads.jsonl",
+    "bytes": 38598543,
+    "sha256": "343a513de1c8ae17bb79f76b515fa6a9f105b1525a40772061f2fbc43e901ab4"
+  }
+}

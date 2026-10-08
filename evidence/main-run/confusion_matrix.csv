@@ -1,0 +1,19 @@
+condition,expected_label,predicted_label,count
+Long_Context,Supported,Supported,16
+Long_Context,Supported,Contradicted,0
+Long_Context,Supported,Insufficient Evidence,0
+Long_Context,Contradicted,Supported,0
+Long_Context,Contradicted,Contradicted,16
+Long_Context,Contradicted,Insufficient Evidence,0
+Long_Context,Insufficient Evidence,Supported,0
+Long_Context,Insufficient Evidence,Contradicted,7
+Long_Context,Insufficient Evidence,Insufficient Evidence,9
+RAG,Supported,Supported,15
+RAG,Supported,Contradicted,0
+RAG,Supported,Insufficient Evidence,1
+RAG,Contradicted,Supported,0
+RAG,Contradicted,Contradicted,16
+RAG,Contradicted,Insufficient Evidence,0
+RAG,Insufficient Evidence,Supported,0
+RAG,Insufficient Evidence,Contradicted,5
+RAG,Insufficient Evidence,Insufficient Evidence,11

@@ -1,0 +1,131 @@
+{
+  "manifest_version": "run_manifest_locked_v1",
+  "created_at": "2026-06-27 16:24:44",
+  "status": "pre_main_run_no_cost_dry_run_completed_conditional_go",
+  "note": "Expected labels and ground-truth rationales are separated from the API execution queue and must remain hidden from model prompts.",
+  "locked_inputs": {
+    "claim_case_manifest": "claim_case_manifest_v1_locked.csv",
+    "api_execution_queue": "api_execution_queue_locked_v1.csv",
+    "scoring_key": "scoring_key_locked_v1.csv",
+    "clean_text_archive": "clean_text_locked_filings_upload.zip",
+    "appendix_b": "Appendix_B_Methodology_and_Experiment_Protocol_v4_FilingLocked.docx",
+    "appendix_c": "Appendix_C_Dataset_and_Claim_Case_Register_v8_ClaimCasesLocked.docx",
+    "appendix_d": "Appendix_D_Prompt_Templates_Output_Schema_and_RAG_Configuration_v4_FilingLocked.docx",
+    "appendix_e": "Appendix_E_Experiment_Run_Logs_Cost_Latency_Logs_and_Results_Evidence_v4_FilingLocked.docx",
+    "appendix_f": "Appendix_F_Ethics_Reproducibility_and_Final_Audit_Material_v6_PreClaimCaseValidated.docx"
+  },
+  "counts": {
+    "claim_cases": 48,
+    "condition_level_calls_before_retries": 96,
+    "labels": {
+      "Supported": 16,
+      "Contradicted": 16,
+      "Insufficient Evidence": 16
+    },
+    "filings": {
+      "F001": 8,
+      "F002": 8,
+      "F003": 8,
+      "F004": 8,
+      "F005": 8,
+      "F006": 8
+    },
+    "conditions": {
+      "Long_Context": 48,
+      "RAG": 48
+    },
+    "case_types": {
+      "cross_section_synthesis": 6,
+      "numeric_consistency": 12,
+      "risk_to_mda_linkage": 5,
+      "segment_consistency": 6,
+      "causal_or_explanatory_claim": 2,
+      "unsupported_causal_claim": 6,
+      "missing_cross_section_support": 5,
+      "unsupported_forward_looking_or_external_claim": 5,
+      "business_model_and_segments": 1
+    },
+    "evidence_items_checked": 96,
+    "evidence_items_normalized_match": 95
+  },
+  "audit_findings": {
+    "evidence_phrase_mismatches": [
+      {
+        "case_id": "F006_C07",
+        "evidence": "1",
+        "phrase": "higher special items primarily reflect the Model e asset impairment",
+        "source_file": "F006_0000037996-26-000015.txt"
+      }
+    ],
+    "evidence_offset_mismatches": [
+      {
+        "case_id": "F006_C07",
+        "evidence": "1",
+        "phrase": "higher special items primarily reflect the Model e asset impairment",
+        "source_file": "F006_0000037996-26-000015.txt",
+        "char_start": 346852,
+        "char_end": 346904
+      }
+    ],
+    "doc_checks": {
+      "Appendix_B_has_model_id": true,
+      "Appendix_B_has_cost_ceiling": true,
+      "Appendix_B_has_retry_rules": true,
+      "Appendix_C_claim_locked": true,
+      "Appendix_C_has_48": true,
+      "Appendix_D_has_lc_prompt": true,
+      "Appendix_D_has_rag_prompt": true,
+      "Appendix_D_has_rag_config": true,
+      "Appendix_E_template_only": true,
+      "Appendix_F_pilot_separated": true
+    },
+    "workbench_run_state_v4": {
+      "status": "completed",
+      "input_smoke_output_dir": "outputs/smoke_test_run",
+      "output_dir": "outputs/claim_case_workbench_v4",
+      "filing_count": 6,
+      "section_rows": 30,
+      "anchor_candidates": 28,
+      "claim_case_template_rows": 48,
+      "clean_text_source_validation_rows": 6,
+      "label_balance": {
+        "Supported": 16,
+        "Contradicted": 16,
+        "Insufficient Evidence": 16
+      },
+      "note": "Patch v4 uses substantive body-section detection, exact 16/16/16 label balancing, and clean-text source validation."
+    },
+    "main_runner_final_found": false,
+    "pilot_runner_archive_available": true
+  },
+  "sha256": {
+    "claim_case_manifest_v1_locked.csv": "83da5dfffc57f091a67e968378cd3fbd478828b767f18530e6ad11a7b9accf0d",
+    "clean_text_locked_filings_upload.zip": "b957d6a8cc53f2cec172fd864a7c85936ed744688fc430fb10b2a05ae42158b1",
+    "claim_case_workbench_v4_upload.zip": "9d8d7a59b95c4cfac9d8254a6250157ddb753539d4743e62bce131c5bd4f01e7",
+    "api_execution_queue_locked_v1.csv": "0b69ace4cd9ec1e145d7be80c22636254a7950f212cec82e23322120c2a0cdf1",
+    "scoring_key_locked_v1.csv": "2b67e45fb929f7b53ce62afc82967fd9f2b4a147e7d815d37f33c38acac9affd",
+    "Appendix_B_Methodology_and_Experiment_Protocol_v4_FilingLocked.docx": "b4f84f8065aa34d8ad61b1c253dd09bb030b79dab6402c1d090442fd01563a1c",
+    "Appendix_C_Dataset_and_Claim_Case_Register_v8_ClaimCasesLocked.docx": "2195d12ee98301179a6a8a5c0dbec444d635bcb9fe519ec135b524ff3399aedc",
+    "Appendix_D_Prompt_Templates_Output_Schema_and_RAG_Configuration_v4_FilingLocked.docx": "d9b6e97f43284e98c2974f3feafa560d3088079d6e861729bdddf0aaaacf4e67",
+    "Appendix_E_Experiment_Run_Logs_Cost_Latency_Logs_and_Results_Evidence_v4_FilingLocked.docx": "16e2271c8f93f2f4072829a9b4bf9ac38c2c844b6246b88f4afd197f5a5aad7c",
+    "Appendix_F_Ethics_Reproducibility_and_Final_Audit_Material_v6_PreClaimCaseValidated.docx": "a5a5e86016c27000234ef221f54708c18ddfd0b88b35d03217b1811fe9f873e1"
+  },
+  "claim_manifest": "claim_case_manifest_v1_locked_amendment001.csv",
+  "scoring_key": "scoring_key_locked_v1_amendment001.csv",
+  "api_execution_queue": "api_execution_queue_locked_v1_amendment001.csv",
+  "pre_analysis_amendments": [
+    {
+      "id": "A001",
+      "date": "2026-06-27",
+      "case_id": "F006_C07",
+      "type": "metadata_anchor_precision_correction",
+      "change": "Corrected evidence_phrase_1 to exact filing wording and adjusted start offset. Claim text, expected label, rationale and inclusion unchanged.",
+      "old_evidence_phrase_1": "higher special items primarily reflect the Model e asset impairment",
+      "new_evidence_phrase_1": "higher year-over-year special items primarily reflect the Model e asset impairment",
+      "old_start": "346852",
+      "new_start": "346822",
+      "end": "346904"
+    }
+  ],
+  "main_run_status": "Not started; runner patch prepared; no paid API calls made in amendment step."
+}

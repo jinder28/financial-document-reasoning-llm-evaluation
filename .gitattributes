@@ -1,0 +1,16 @@
+# Keep source text readable, but never normalize frozen evidence on Windows.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Dockerfile text eol=lf
+requirements.txt text eol=lf
+.env.example text eol=lf
+/inputs/** -text
+/evidence/** -text
+/docs/submission/** -text
+/docs/appendices/** -text
+/docs/dissertation/** -text
+*.pdf binary
+*.xlsx binary

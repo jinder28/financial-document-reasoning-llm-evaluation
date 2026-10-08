@@ -1,0 +1,15 @@
+error_code,description
+missed_inconsistency,Model failed to identify a contradiction.
+false_inconsistency,Model marked a supported claim as contradicted.
+unsupported_claim_acceptance,Model accepted a claim lacking filing support.
+unsupported_causal_inference,Model inferred causal explanation not established by filing evidence.
+numeric_mismatch,"Model mishandled a disclosed number, date, or period."
+hallucinated_justification,Model cited or invented support not present in supplied evidence.
+over_cautious_insufficient_evidence,Model abstained despite sufficient supplied filing evidence.
+schema_failure,Model output failed the required JSON schema.
+reference_invalidity,Model evidence reference did not point to supplied filing evidence.
+retrieval_miss,RAG retrieval omitted necessary evidence.
+retrieval_noise,RAG retrieval included distracting or weakly relevant evidence.
+chunk_boundary_fragmentation,RAG chunk boundaries split needed evidence.
+long_context_attention_failure,Long-context condition had evidence but failed to use it.
+long_context_position_sensitivity,Long-context failure plausibly linked to evidence position.

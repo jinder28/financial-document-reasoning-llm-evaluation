@@ -1,0 +1,10 @@
+services:
+  experiment-runner:
+    build: .
+    image: sec10k-dissertation-apparatus:v1
+    env_file:
+      - .env
+    volumes:
+      - ./inputs:/workspace/inputs
+      - ./outputs:/workspace/outputs
+    working_dir: /workspace

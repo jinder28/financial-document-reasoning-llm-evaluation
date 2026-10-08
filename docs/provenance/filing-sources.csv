@@ -1,0 +1,7 @@
+filing_id,company,accession_number,report_date,source_file,source_url,url_provenance
+F001,Apple Inc.,0000320193-25-000079,2025-09-27,F001_0000320193-25-000079.txt,https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm,"Appendix C, Table C.2 hyperlink"
+F002,"Amazon.com, Inc.",0001018724-26-000004,2025-12-31,F002_0001018724-26-000004.txt,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm,"Appendix C, Table C.2 hyperlink"
+F003,JPMorgan Chase & Co.,0001628280-26-008131,2025-12-31,F003_0001628280-26-008131.txt,https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm,"Appendix C, Table C.2 hyperlink"
+F004,Bank of America Corp.,0000070858-26-000157,2025-12-31,F004_0000070858-26-000157.txt,https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm,"Appendix C, Table C.2 hyperlink"
+F005,Verizon Communications Inc.,0000732712-26-000007,2025-12-31,F005_0000732712-26-000007.txt,https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm,"Appendix C, Table C.2 hyperlink"
+F006,Ford Motor Co.,0000037996-26-000015,2025-12-31,F006_0000037996-26-000015.txt,https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm,"Appendix C, Table C.2 hyperlink"

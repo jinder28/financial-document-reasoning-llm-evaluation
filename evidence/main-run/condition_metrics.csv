@@ -1,0 +1,3 @@
+condition,correct_count,total_count,accuracy
+Long_Context,41,48,0.8541666666666666
+RAG,42,48,0.875
